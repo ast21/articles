@@ -11,7 +11,7 @@
     "extra": {
     "laravel": {
         "providers": [
-            "AdminKit\\Article\\ArticleServiceProvider"
+            "AdminKit\\Articles\\ArticleServiceProvider"
         ]
     }
 },

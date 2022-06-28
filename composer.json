@@ -1,0 +1,28 @@
+{
+    "name": "admin-kit/articles",
+    "description": "AdminKit News package",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "AdminKit\\Articles\\": "src/"
+        }
+    },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "AdminKit\\Article\\ArticleServiceProvider"
+        ]
+    }
+},
+    "authors": [
+        {
+            "name": "Anastas Mironov",
+            "email": "ast@l80.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "admin-kit/core": "@dev"
+    }
+}

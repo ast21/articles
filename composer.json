@@ -9,12 +9,12 @@
         }
     },
     "extra": {
-    "laravel": {
-        "providers": [
-            "AdminKit\\Articles\\ArticleServiceProvider"
-        ]
-    }
-},
+        "laravel": {
+            "providers": [
+                "AdminKit\\Articles\\ArticleServiceProvider"
+            ]
+        }
+    },
     "authors": [
         {
             "name": "Anastas Mironov",
@@ -23,6 +23,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "admin-kit/core": "@dev"
+        "admin-kit/core": "@dev",
+        "cviebrock/eloquent-sluggable": "^9.0",
+        "spatie/laravel-translatable": "^6.0"
     }
 }
